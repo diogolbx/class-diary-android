@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_student_id"
+        android:inputType="textCapWords"
+        android:key="student_id"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_student" />
+    
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_discipline_id"
+        android:inputType="textCapWords"
+        android:key="discipline_id"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_discipline" />
+    
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="classNumber_id"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_classNumber" />
+
+</PreferenceScreen>

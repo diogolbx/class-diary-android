@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Class Diary</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">CLASS DIARY</string>
+    <string name="title_class_list">Classes</string>
+    <string name="title_class_detail">Class Detail</string>
+    <string name="title_activity_class">Disciplines</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
